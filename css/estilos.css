@@ -9,7 +9,8 @@ body {
   color: white;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  height: 70px;
+  align-items: center;
 }
 
 .menu {
@@ -71,6 +72,15 @@ h1 strong {
   color: #026fff;
 }
 
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
 .hero {
   height: 300px;
   background-image: url(https://sicomorus.net/images/hero.jpg);
@@ -84,15 +94,42 @@ h1 strong {
 
 .portfolio {
   background: #fafafa;
+  padding: 20px;
 }
 
 .project {
   border: 1px solid gray;
   border-radius: 10px;
-  margin: 10px;
   margin-bottom: 15px;
   padding: 20px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-course,
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+
+.project-decription {
+  font-size: 20px;
+}
+
+.project strong {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/*.project-date {
+  margin: 10px 0;
+}*/
+
+.project-title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .project-details {
@@ -103,3 +140,18 @@ h1 strong {
   width: 500px;
 }
 
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+}
