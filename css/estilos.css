@@ -199,3 +199,67 @@ h2 {
   color: #056fff;
   border-radius: 5px;
 }
+
+.contact {
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 10px;
+}
+
+.social-link.twitter {
+  background-image: url(https://sicomorus.net/images/twitter.svg);
+}
+
+.social-link.facebook {
+  background-image: url(https://sicomorus.net/images/facebook.svg);
+}
+
+.social-link.github {
+  background-image: url(https://sicomorus.net/images/github.svg);
+}
+
+.social-link.instagram {
+  background-image: url(https://sicomorus.net/images/instagram.svg);
+}
+
+.form-email input{
+  border-color: gray;
+  padding: 10px 20px 10px 25px;
+  background-image: url(https://sicomorus.net/images/envelope.svg);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.form-email button {
+  display: block;  
+  background: transparent;
+  color: white;
+  padding: 10px 0;
+  width: 100px;
+  border-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  /*margin: 10px auto 0;*/
+}
+
+.form-email h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
