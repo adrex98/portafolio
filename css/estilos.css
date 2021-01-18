@@ -285,6 +285,7 @@ h2 {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+  flex: 1;
 }
 
 /* Desktop First que empieces desdel el MQ mas grande*/
@@ -295,9 +296,22 @@ h2 {
   }
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    
+@media screen and (max-width: 767px) {
+  .header {
+    display: block;
+    height: auto;
+  }
+  .header ol {
+    display: block;
+  }
+  .header ol li {
+    height: 50px;
+  }
+  .header a {
+    justify-content: center;
+  }
+  .header .logo {
+    text-align: center;
   }
 }
 
