@@ -342,6 +342,10 @@ h2 {
 /* Desktop First que empieces desdel el MQ mas grande*/
 
 @media screen and (max-width: 1024px) {
+
+  .portafolio {
+    padding: 0;
+  }
   .container {
     padding: 0 1em;
   }
